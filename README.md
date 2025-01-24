@@ -16,6 +16,13 @@ From here, you should be able to close the window, and use normally except that:
 ~~~
 conda activate gis
 ~~~ 
+# Manual Install (for mac?)
+~~~
+conda create --name gis -c conda-forge python=3.9 spyder jupyter jupyterlab numpy pandas matplotlib
+conda activate gis
+pip install opencv-python 
+pip install pypdf2==2 pyppeteer==0.2.2 
+~~~
 
 # Key Packages and Software
 * [Anaconda](https://www.anaconda.com/distribution) is an aggregation of many of the tools we use, including Python, Jupyter, Numpy/SciPy, etc.  It's worthwhile to learn to [use and manage environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html), which are sort of firewalled/separated installations so that dependencies don't clash.
