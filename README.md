@@ -10,7 +10,7 @@ These notebooks with require an installation of [ArcGIS Pro](https://apps.itpals
 conda create --name gis --file https://nearearthimaginglab.org/python/neil.20220730.txt
 conda activate gis
 pip install opencv-python 
-pip install notebook-as-pdf pypdf2==2 pyppeteer==0.2.2 
+pip install pypdf2==2 pyppeteer==0.2.2 
 ~~~
 From here, you should be able to close the window, and use normally except that: when you open the Anaconda command window, in addition to changing directory to your working directory you'll need to type
 ~~~
