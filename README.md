@@ -21,7 +21,8 @@ conda activate gis
 conda create --name gis -c conda-forge python=3.9 spyder jupyter jupyterlab numpy pandas matplotlib
 conda activate gis
 pip install nbconvert[webpdf]
-# To convert your first notebook using webpdf, you'll need to run on the python/gis environment commandline, jupyter nbconvert --to webpdf --allow-chromium-download path/to/any_notebook.ipynb
+# To convert your first notebook using webpdf, you'll need to run on the python/gis environment commandline:
+# jupyter nbconvert --to webpdf --allow-chromium-download path/to/any_notebook.ipynb
 # After this, you can do it in the browser as normal.
 ~~~
 
