@@ -18,7 +18,7 @@ conda activate gis
 ~~~ 
 # Manual Install (for mac?)
 ~~~
-conda create --name gis -c conda-forge python=3.9 spyder jupyter jupyterlab numpy pandas matplotlib
+conda create --name gis -c conda-forge python=3.10 spyder jupyter jupyterlab numpy pandas matplotlib
 conda activate gis
 pip install nbconvert[webpdf]
 # To convert your first notebook using webpdf, you'll need to run on the python/gis environment commandline:
