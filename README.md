@@ -30,6 +30,21 @@ pip install nbconvert[webpdf]
 # After this, you can do it in the browser as normal.
 ~~~
 
+# Exporting to PDF
+* To install the package needed for conversion:
+~~~
+pip install nbconvert[webpdf]
+~~~
+* To create the PDF from the commandline.  Useful for first conversion as it will downloaded the needed Chromium component.
+~~~
+jupyter nbconvert --to webpdf --allow-chromium-download "01. Variables and If-Else.ipynb"
+~~~
+* But then these can be created in Notebooks directly
+~~~
+!jupyter nbconvert --to webpdf "01. Variables and If-Else.ipynb"
+~~~
+
+
 # Key Packages and Software
 * [Anaconda](https://www.anaconda.com/distribution) is an aggregation of many of the tools we use, including Python, Jupyter, Numpy/SciPy, etc.  It's worthwhile to learn to [use and manage environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html), which are sort of firewalled/separated installations so that dependencies don't clash.
 * Pandas is best for column/vector/attribute/tabular manipulation.  [Vaex](https://www.kdnuggets.com/2021/05/vaex-pandas-1000x-faster.html) may be a newer, faster alternative?
